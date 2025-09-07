@@ -112,7 +112,7 @@ export default function HomePage() {
                     </Text>
                   )}
                   {task.dueDate && task.isDone &&(
-                    <Text size="xs" c="sitiroj">
+                    <Text size="xs" c="thanakorn">
                       Done at: {task.dueDate.toLocaleDateString()} , {task.dueDate.toLocaleTimeString()}
                     </Text>
                   )}
